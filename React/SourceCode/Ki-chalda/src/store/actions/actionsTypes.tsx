@@ -1,0 +1,5 @@
+export const LOGIN_VALIDATE = "LOGIN_VALIDATE";
+export const VALIDATE_SESSION = "VALIDATE_SESSION";
+export const PORTAL_LOGOUT = "PORTAL_LOGOUT";
+
+
