@@ -1,0 +1,161 @@
+
+--Set user name and email
+git config --global user.name Shivender
+
+$ git config --global user.email shivenderempire@gmail.com
+
+check email id
+$ git config --global user.email
+
+
+--start from  scratch
+git inti
+
+shows the hiddent files and folder
+ls -lart
+
+to check the untracked or un uploaded files
+git status
+check summarized status
+git status -s
+
+--Add File to git at staged 
+git add filename.extension(index.html)
+
+
+--Commit staged files
+git commit
+then popup is open Press I then write the commit remarks then press esc then :wq then press enter
+or you can use
+git commit -m "Commit remarks"
+
+
+--Create blank File
+touch  filename.fileextension(about.html)
+
+to stage/Add all untracked file to 
+git add -A
+
+
+clear terminal
+clear
+
+
+
+----To recover last comitted updated file(if something went wrong)----------
+Recover Single File
+git checkout contact.html
+
+
+Recover all Files
+git checkout -f
+
+
+-----Git Log to get all comitted Log---
+git log
+
+Filter selected committed log
+git log -p -1(-1 and so on are the how many last commit you want to change)
+then press q when you want to out
+
+
+
+see the diffrence after file change
+git diff
+Note: this command is work only till you dont run git add command
+
+
+check git diff with last staged
+git diff --staged
+
+
+list down all files
+ls
+
+
+--comit all file without staging
+git commit -a -m "Added new File in system"
+Note: This will not work on new files for this you have stage file from command git add -A
+
+
+
+--remove file from commit 
+git rm --cached waste.html
+
+--remove file from every where
+git rm waste.html
+
+
+
+
+--------------------Branches------------------
+
+To See the branches
+git branch
+
+Add new Branch
+git branch feature
+* feature is the branch name that i have created
+
+Shift from one branch to another branch
+git checkout feature
+
+
+
+create new brach and auto shift to that branch
+ git checkout -b dotnetintegration
+*dotnetintegration is branch name
+
+
+
+----Merge-----
+Firsty you have to checkout the main(parent) branch in which you want to merge with your branch
+then write following command
+git merge features
+*features is the brach name that we have merged with parent branch
+
+
+
+
+---------------------Git hub------------------------------------
+This is used to add origin with your current git
+git remote add origin git@github.com:shivenderempire/git-in-one-video.git
+
+
+to check thr origin name
+git remote
+note: it will work only if you add your git repo with github
+
+To Show the fetch and push notification  list
+git remote -v
+
+
+
+To Enable SSH
+waith video 
+https://www.youtube.com/watch?v=gwWKnnCMQ5c
+miute 1:03
+
+then 
+git push origin master
+
+
+create new branch in gitgub 
+git checkout features
+
+then 
+git push -u origin feature
+
+once it set then you can simply run 
+git push
+
+it will automatrically run on that origin untill you dont change the origin
+
+----Clone project
+
+git clone Project_url_from_git
+
+
+
+
+
