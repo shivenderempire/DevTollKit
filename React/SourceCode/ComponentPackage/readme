@@ -1,0 +1,10 @@
+Best Link to create component Package
+
+##For normal JS Package with CRA
+https://www.cluemediator.com/create-an-npm-package-using-create-react-app
+
+
+##For  using typescript without CRA
+https://prateeksurana.me/blog/react-library-with-typescript/
+#####note: Kindly refer github of above Link for tsconfig and package.json file
+https://github.com/prateek3255/typescript-react-demo-library
